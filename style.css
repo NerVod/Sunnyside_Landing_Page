@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+/* ****************header******************* */
+.mainPage{
+    height: 800px;
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    margin-top: 0;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 40px 70px;
+    color: hsl(0, 0%, 100%)
+    }
+
+nav li {
+    margin: 3px 25px;
+}
+
+.contact {
+    height: 55px;
+    width: 140px;
+    border-radius: 28px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Fraunces';
+    }
+
+.boutonContact {
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+.logo {
+    height: 35px;
+    margin: 40px 70px; 
+}
+
+.messageCentral {
+    height: 200px;
+    width: 900px;
+    margin: 80px auto;
+    font-family: 'fraunces', sans-serif;
+    text-align: center;
+    margin-top: 95px;
+    }
+
+.titreHeader {
+    color:hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 15px;
+   
+}
+
+.arrow {
+    margin: 50px auto;
+}
