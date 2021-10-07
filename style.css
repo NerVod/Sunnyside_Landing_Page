@@ -44,6 +44,7 @@ nav li {
     margin-top: -10px;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Fraunces';
+    font-size: 16px;
     }
 
 .boutonContact {
@@ -115,6 +116,7 @@ nav li {
     grid-column: 1/2;
     grid-row: 3;
     background-image: url(images/desktop/image-graphic-design.jpg);
+    
 }
 
 .six {
@@ -130,17 +132,18 @@ nav li {
 
 .titleGrid {
     font-family: 'fraunces', sans-serif;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 900;
-    width: 350px;
-    margin-left: 150px; 
+    width: 420px;
+    margin-left: 150px;
+    color: hsl(212, 27%, 19%); 
    }
 
    .paragGrid {
     width: 450px;
     margin-left: 150px; 
     line-height: 30px;
-    color: hsl(198, 62%, 26%);
+    color: hsl(213, 9%, 39%);
     margin-bottom: 50px;
    }
 
@@ -149,9 +152,10 @@ nav li {
     margin-left: 150px; 
     text-transform: uppercase;
     font-weight: 900;
+    font-size: 16px;
     font-family: 'fraunces', sans-serif;
     text-decoration: none;
-    color: black;
+    color: hsl(212, 27%, 19%);
     margin-bottom: 40px;
    }
 
@@ -174,3 +178,101 @@ nav li {
     margin-left: -8px;
     opacity: 0.3;
 }
+
+/* **********grid central  bas image et texte *****************/
+
+.titleTextImage {
+    display:flex;
+    flex-direction: column;
+    height: 300px;
+    width: 380px;
+    margin: 300px auto;
+}
+
+.titleGridImage {
+    font-family: 'fraunces', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    width: 380px;
+    margin: 70px auto;
+    text-align: center;
+    color: hsl(212, 27%, 19%)
+}
+
+.paragGridImage {
+    width: 380px;
+    line-height: 30px;
+    color: hsl(213, 9%, 39%);
+    margin: -20px auto;
+    text-align: center;
+}
+
+/* *********************temoignages ************************** */
+
+.testimonial {
+    width: 1440px;
+    height: 750px;
+    background-color:rgb(252, 248, 248);
+    display: flex;
+    flex-direction: column;
+}
+
+.titreTemoignage {
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    font-family: 'fraunces', sans serif;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 160px;
+}
+
+.blocTemoin {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 1200px;
+    margin: 70px auto;
+}
+
+.temoignage {
+    display:flex;
+    flex-direction: column;
+}
+
+.photoClient {
+border-radius: 50% 50%;
+height: 70px;
+width: 70px;
+align-self: center;
+margin: 20px;
+}
+
+.textTemoignage {
+    font-family: 'barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+    width: 350px;
+    text-align: center;
+    line-height: 30px;
+    margin: 40px 5px
+}
+
+.signature {
+    align-self: center;
+    font-weight: 900;
+}
+
+.nomSignature {
+    font-family: 'fraunces', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.posteSignature {
+    color: hsl(210, 4%, 67%);
+    font-size: 14px;
+}
+
+/* *******************ligne d images ********************************* */
