@@ -323,6 +323,7 @@ footer {
     font-family: 'barlow', sans-serif;
     color:hsl(167, 40%, 24%);
     margin: 5px 30px;
+    text-decoration: none;
 }
 
 .social {
