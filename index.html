@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
 </head>
@@ -18,7 +20,7 @@
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
-        <li class="contact"><div class="boutonContact">Contact</div></li>
+        <li class="contact boutonContact contHover">Contact</li>
       </ul>
     </nav>
 
@@ -30,12 +32,12 @@
   </header>
 
   <!-- ------------------------------section grid------------------------------ -->
-  <!-- <div class="gridWrapper">
+  <div class="gridWrapper">
     <div class="one gridFlex">
       <h2 class="titleGrid">Transform your brand</h2>
       <p class="paragGrid">We are a full-service creative agency specializing in helping brands grow fast. 
         Engage your clients through compelling visuals that do most of the marketing for you.</p>
-      <a class="linkGrid" href="#" target="_blank" rel="noopener noreferrer">Learn more <div class="dash1"></div></a>
+      <a class="linkGrid" href="#" target="_blank" rel="noopener noreferrer">Learn more <div class="dash dash1"></div></a>
     </div>
 
     <div class="two"></div>
@@ -45,7 +47,7 @@
     <div class="four gridFlex">
       <h2 class="titleGrid">Stand out to the right audience</h2>
       <p class="paragGrid">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-      <a class="linkGrid" href="#" target="_blank" rel="noopener noreferrer">Learn more <div class="dash2"></div></a>
+      <a class="linkGrid" href="#" target="_blank" rel="noopener noreferrer">Learn more <div class="dash dash2"></div></a>
     </div>
     
 
@@ -63,11 +65,11 @@
       </div>
     </div>
 
-  </div>  -->
+  </div>
 
   <!-- --------------------CLIENT TESTIMONIALS---------------------- -->
 
-  <!-- <section class="testimonial">
+  <section class="testimonial">
 
     <h1 class="titreTemoignage">Client testimonials</h1>
 
@@ -99,16 +101,16 @@
           </div>
         </div>
       </div>
-  </section> -->
+  </section>
 
   <!-- -----------------------------bandeau images-------------------------- -->
 
-  <!-- <div class="bandeauImages">
+  <div class="bandeauImages">
     <img class="bandeau" src="images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles" srcset="">
     <img class="bandeau" src="images/desktop/image-gallery-orange.jpg" alt="an orange" srcset="">
     <img class="bandeau" src="images/desktop/image-gallery-cone.jpg" alt="ice cream cone" srcset="">
     <img class="bandeau" src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes" srcset="">
-  </div> -->
+  </div> 
 
 
   <!-- ------------------------------FOOTER ---------------------------------- -->
@@ -121,17 +123,19 @@
       <li class="footList">Projects</li>
     </ul>
     <div class="social">
-        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img class="socialLink" src="images/icon-facebook.svg" alt="Facebook" srcset=""></a>
-      <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><img class="socialLink" src="images/icon-instagram.svg" alt="Instagram" srcset=""></a>
-      <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><img class="socialLink" src="images/icon-twitter.svg" alt="Twitter" srcset=""></a>
-      <a href="http://pinterest.com" target="_blank" rel="noopener noreferrer"><img class="socialLink" src="images/icon-pinterest.svg" alt="Pinterest" srcset="">
+        <a class="socialLink" href="http://facebook.com" target="_blank" rel="noopener noreferrer"><i class="ri-facebook-box-fill"></i></a>
+      <a class="socialLink" href="http://instagram.com" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i></a>
+      <a class="socialLink" href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-fill"></i></a>
+      <a class="socialLink" href="http://pinterest.com" target="_blank" rel="noopener noreferrer"><i class="ri-pinterest-fill"></i></a>
     </div>
+
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> . Coded by <a href="https://nervod.github.io/">NerVod <img class="logoNerVod"src="images/logo_NerVod-removebg.png" alt="logo Ner Vod" srcset=""></a>.</p>
+    </div>
+
   </footer>
 
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">NerVod</a>.
-  </div>
+  
 </body>
 </html>
