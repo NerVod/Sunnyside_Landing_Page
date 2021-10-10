@@ -1,19 +1,188 @@
-@media screen aand (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
  
     body{
-        width: 100 vw;
+        width: 375px;
+        margin: auto;
         font-size: 16px;
     }
 
     .mainPage {
-        height: 800px;
-        background;
+        width: 375px;
+        height: 500px;
+       background-image: url(images/mobile/image-header.jpg);
         margin-top: 0;
       }
 
+.navTop {
+    display: none;
+}
 
+.logo {
+    height: 25px;
+    margin: 40px 30px;
+  }
 
+  .messageCentral {
+    height: 200px;
+    width: 305px;
+    margin: 10px auto;
+    
+  }
+  
+  .titreHeader {
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+
+  .arrow {
+    margin: 20px auto;
+  }
+
+  /*  *******************Grid central en colonne pour mobile ************************** */
+
+      .gridWrapper {
+        grid-template-areas:
+                            "two"                    
+                            "one"    
+                            "three"
+                            "four"
+                            "five"
+                            "six";
+        grid-template-columns: 375px;
+        grid-template-rows: 310px;
+        margin: 0 auto;
+        text-align: center;
+      }
       
+      
+      .two {
+       background-image: url(images/mobile/image-transform.jpg);
+       height: 310px;
+       background-position: center;
+       background-size: 375px 300px;
+      }
+
+      .one {
+        width: 375px;
+        height: 450px;
+      }
+      
+      .three {
+        height: 320px;
+        background-size: 375px 320px;
+      background-image: url(images/mobile/image-stand-out.jpg);
+      }
+
+      .four {
+        width: 375px;
+        height: 450px
+      }
+          
+      .five {
+        height: 600px;
+        background-size: 375px 600px;
+        background-image: url(images/mobile/image-graphic-design.jpg);
+      }
+      
+      .six {
+        height: 600px;
+        background-size: 375px 600px;
+        background-image: url(images/mobile/image-photography.jpg);
+      }
+      
+      .titleGrid {
+        font-size: 30px;
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      
+      .paragGrid {
+        width: 330px;
+        margin: 10px auto;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 30px;
+      }
+      
+      .linkGrid {
+        margin: 10px auto;
+        margin-top: 40px;  
+      }
+
+      .titleGridImage {
+        font-size: 28px;
+        width: 375px;
+        margin: 90px auto;
+      }
+      
+      .paragGridImage {
+        width: 350px;
+        line-height: 28px;
+        margin: -45px auto;
+        opacity: 1;
+        font-weight: 900;
+      }
+
+/* *********************temoignages ************************** */
+
+.testimonial {
+    width: 375px;
+    height: 1280px;
+    
+  }
+  
+  .titreTemoignage {
+    margin-top: 60px;
+    font-size: 16px;
+  }
+  
+  .blocTemoin {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    
+  }
+  
+  .temoignage {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 400px;
+  }
+
+  .photoClient {
+   margin-top: -25px;
+  }
+  
+  .textTemoignage {
+    width: 330px;
+    margin: 20px auto;
+    font-size: 18px;
+    opacity: 0.9;
+  }
+
+  .signature {
+    
+    margin-bottom: 60px;
+  }
+  
+  .nomSignature {
+    margin-bottom: 10px;
+  }
+  
+  .posteSignature {
+    margin-bottom: 40px;
+  }
+
+
+
+
+
+
+
+
+
 
     
 }
