@@ -36,6 +36,16 @@ nav li {
   margin: 3px 25px;
 }
 
+.mainNav {
+  text-decoration: none;
+  color:hsl(0, 0%, 100%);
+}
+
+.mainNav2 {
+  color: black;
+  text-decoration: none;
+}
+
 .contact {
   height: 55px;
   width: 140px;
@@ -50,7 +60,7 @@ nav li {
 }
 
 .boutonContact {
-  color: black;
+  
   text-transform: uppercase;
 }
 
@@ -292,6 +302,21 @@ nav li {
     height: 450px;
     width: 360px; 
     margin-top: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.bandeauUn {
+  background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+}
+.bandeauDeux {
+  background-image: url(images/desktop/image-gallery-orange.jpg);
+}
+.bandeauTrois {
+  background-image: url(images/desktop/image-gallery-cone.jpg);
+}
+.bandeauQuatre {
+  background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
 }
 
 /* *********************************FOOTER*************************************** */
@@ -300,7 +325,7 @@ footer {
     height: 300px;
     width: 100vw;
     max-width: 1440px;
-    background-color: hsl(168, 34%, 41%);
+    background-color: rgb(155,220,204);;
     display: flex;
     flex-direction: column;
    
@@ -310,13 +335,15 @@ footer {
     font-family: 'fraunces', sans-serif;
     font-weight: 900;
     color:hsl(167, 40%, 24%);
-    margin: 45px auto;
-    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-size: 35px;
+    opacity: 0.7;
 }
 
 .navFoot {
     list-style-type: none;
-    margin: 25px auto;
+    margin: 35px auto;
     display: flex;
 }
 
@@ -325,18 +352,26 @@ footer {
     color:hsl(167, 40%, 24%);
     margin: 5px 30px;
     text-decoration: none;
+    font-size: 19px;
+    opacity: 0.5;
 }
 
 .social {
-    margin: 10px auto;
+    margin: 20px auto;
    
 }
 
 .socialLink {
     margin: 30px 10px;
-    color: hsl(167, 40%, 24%);
+    color: rgb(37, 86, 75);
     text-decoration: none;
+    opacity: 0.7;
 }
+
+.iconeSocial {
+  height: 25px;
+}
+
 
   .attribution {
     font-size: 11px;
