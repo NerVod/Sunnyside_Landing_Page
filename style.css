@@ -68,6 +68,33 @@ svg {
   display: none;
 }
 
+/* Associe les mêmes règles au label et à la case
+   pour les superposer, et "cacher" la case à cocher. */
+   .menu-label,
+   .menu-cb {
+     /* Retire l'affichage par défaut des éléments de formulaire */
+     /* ... comme les checkbox */
+     appearance: none;
+   
+     /* Défini une position relative, comme ajouté précedemment dans CSS Mobile pour bouton Burger*/
+     position: relative;
+     top: 35x;
+     right: 15px;
+     height: 32px;
+     width: 32px;
+   }
+
+   .menu-nav {
+    /* [...les autres propriétés CSS...] */
+    display: none;
+  }
+
+
+
+
+
+
+
 .logo {
   height: 35px;
   margin: 40px 70px;
