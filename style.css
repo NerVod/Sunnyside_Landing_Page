@@ -64,6 +64,10 @@ nav li {
   text-transform: uppercase;
 }
 
+svg {
+  display: none;
+}
+
 .logo {
   height: 35px;
   margin: 40px 70px;
@@ -389,7 +393,16 @@ footer {
   }
 
 
-  /* **************************zones actives HOVER *****************************/
+  /* ************************** Zones actives HOVER *****************************/
+
+.mainNav:hover {
+  opacity: 0.8;
+  
+  }
+
+.mainNavHover:hover{
+  transform:scale(1.2)
+}
 
   .contHover:hover {
     background-color: rgba(255,255,255,0.2);

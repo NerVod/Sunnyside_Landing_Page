@@ -18,6 +18,28 @@
     display: none;
 }
 
+svg {
+  display:initial;
+  position: relative;
+  top: 35px;
+  right: 15px;
+  height: 32px;
+  width: 32px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .logo {
     height: 25px;
     margin: 40px 30px;
