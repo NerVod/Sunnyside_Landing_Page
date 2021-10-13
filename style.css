@@ -85,15 +85,9 @@ svg {
    }
 
    .menu-nav {
-    /* [...les autres propriétés CSS...] */
+    /* les autres propriétés CSS sont sur CSS mobile */
     display: none;
   }
-
-
-
-
-
-
 
 .logo {
   height: 35px;

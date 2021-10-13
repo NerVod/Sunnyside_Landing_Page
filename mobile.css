@@ -1,17 +1,17 @@
 @media screen and (max-width: 1439px) {
  
     body{
-        width: 375px;
-        margin: auto;
-        font-size: 16px;
-        scroll-behavior: smooth;
+  width: 375px;
+  margin: auto;
+  font-size: 16px;
+  scroll-behavior: smooth;
     }
 
     .mainPage {
-        width: 375px;
-        height: 500px;
-        background-image: url(images/mobile/image-header.jpg);
-        margin-top: 0;
+  width: 375px;
+  height: 500px;
+  background-image: url(images/mobile/image-header.jpg);
+  margin-top: 0;
       }
 
 .navTop {
@@ -25,18 +25,16 @@ svg {
   right: 15px;
   height: 32px;
   width: 32px;
-  
-
 }
 
-/* SI la case est cochée, modifier la classe "menu-nav" */
+/* SI la case est cochée, pour modifier la classe "menu-nav" */
 .menu-cb:checked ~ .menu-nav {
-  display: block;
+  display:inherit;
 }
 
 .menu-label,
 .menu-cb {
-  /* [...] */
+  /* autre CSS sur feuille Style.css */
   z-index: 10;
 }
 
@@ -84,14 +82,6 @@ svg {
   color:hsl(167, 40%, 24%);
   font-weight: 900;
 }
-
-
-
-
-
-
-
-
 
 .logo {
     height: 25px;
